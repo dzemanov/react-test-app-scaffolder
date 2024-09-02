@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-react-cra-scaffolder
+  description: This is a react application
+  annotations:
+    github.com/project-slug: dzemanov/react-test-app-scaffolder
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/createdAt: 9/2/2024, 6:30:03 PM
+    custom.io/other: value
+  labels:
+    other: test-label
+spec:
+  type: website
+  lifecycle: experimental
+  owner: group:default/janus-authors
+  scaffoldedFrom: template:default/create-react-app-template-with-timestamp-entityref

@@ -1,0 +1,8 @@
+site_name: "test-react-cra-scaffolder"
+site_description: "This is a react application"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
